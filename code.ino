@@ -75,9 +75,7 @@ void loop()
     }else{
       SIM900.println("Normal body temperature detected");
     }
- 
-    
-    state = 1;
+
   }
     if (digitalRead(pin) == LOW) {
       state = 0;
